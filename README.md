@@ -29,7 +29,7 @@ Running instructions
 Contains .mat files with ground truth for segmented images. 
 
 ### Images
-Sample Images are hosted on [Google Drive](https://drive.google.com/drive/folders/1i1C-IXEV6JHNO4-seWuAgR4h89YdVR1a?usp=sharing)
+Images can be found at UW research works
 * ground truth folder contains raw images correlating to ground truth label matrices
 * other files selected at random
 
