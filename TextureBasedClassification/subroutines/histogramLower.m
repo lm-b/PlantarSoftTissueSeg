@@ -1,0 +1,13 @@
+% created by Jakob Nikolas Kather 2015 - 2016
+% license: see separate LICENSE file, includes disclaimer
+
+function featureVector = histogramLower(imgInGray)
+    % histogram-based features: central moment 1 to 5
+    % input: grayscale image, values 0...1 (double precision floats)
+    % compute histogram descriptors
+    featureVector = [ nanmean(imgInGray(:)),...
+                      nanvar(imgInGray(:)),...
+                      skewness(imgInGray(:)),...
+                      kurtosis(imgInGray(:)),...
+                      moment(imgInGray(~isnan(imgInGray)),5)];
+end
