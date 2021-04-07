@@ -30,8 +30,12 @@ Contains .mat files with ground truth for segmented images.
 
 ### Images
 Images can be found at UW research works
-* ground truth folder contains raw images correlating to ground truth label matrices
-* other files selected at random
+* GroundTruth contains raw images correlating to ground truth label matrices
+* classifierims contains the folder of single-tissue images from which texture features were extracted. 
+* featureSets contains extracted feature sets used to train the classifiers
+* trainedClassifiers contains the trained classifiers used for whole slide iamge segmentation
+* UNet_models contains 3 checkpoints of the best version of the UNet. Checkpoint 8000 was used for final segmentation comparison
+
 
 
 
