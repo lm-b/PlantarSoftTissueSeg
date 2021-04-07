@@ -7,8 +7,8 @@ Semantic segmentation of plantar soft tissue histology images using several mach
 ### Texture-based Classification
 * lbp folder: code to complete local binary patterns
 * subroutines folder: all subroutines needed to run the main scripts
-* perceptual: code to extract [perceptual features] (https://www.sciencedirect.com/science/article/abs/pii/S0925231214016762?via%3Dihub)
-* SNIC_mex: Slightly adapted [SNIC method] (https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf ). 
+* perceptual: code to extract [perceptual features](https://www.sciencedirect.com/science/article/abs/pii/S0925231214016762?via%3Dihub)
+* SNIC_mex: Slightly adapted [SNIC method](https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf ). 
 
 Running instructions
 * use main_create_texture_feature_dataset.m to extract desired features from all classifier images. 
