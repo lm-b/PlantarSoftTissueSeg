@@ -1,14 +1,8 @@
-% imgfolder='F:\IncludeTiff';
-% segfolder='F:\IncludeTiff\Segmentations';
-% addpath(segfolder);
-% imgfolder='F:\From Finite\newsupdeep\DeepLearningData\RunSegs'; % F is 5TB external drive!
-%segfolder='F:\EE577Project\output\SegmentationsByFeature\BestSegsForCompare';
+% Calculate Accuracy fo Segmentations
+% Lynda Brady 2021
 segfolder='F:\Paper_DICE_Segs\Segmentations_16_WCE';
-addpath('F:\IncludeTiff\Segmentations');
 imgfolder='F:\From Finite\newsupdeep\DeepLearningData\RunSegs'; % F is 5TB external drive!
-%segfolder='F:\EE577Project\output\SegmentationsByFeature\BestSegsForCompare\';
 addpath(segfolder);
-addpath('F:\EE577Project\subroutines');
 %allsegs=dir([segfolder '*mat']);
 accs={};
 ClassAcc=struct;
