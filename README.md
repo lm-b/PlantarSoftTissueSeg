@@ -1,5 +1,5 @@
 # Comparison of Texture-based Classification and Deep Learning for Plantar Soft Tissue Histology Segmentation
-Semantic segmentation of plantar soft tissue histology images using several machine learning techniques. Publication *under review*
+Semantic segmentation of plantar soft tissue histology images using several machine learning techniques. Published in [*Computers in Biology and Medicine*, 2021](https://doi.org/10.1016/j.compbiomed.2021.104491) Application of the trained Unet method is published in [*The Foot*, 2023](http://doi.org/10.1016/j.foot.2023.101989 )
 
 
 
