@@ -59,14 +59,14 @@ def apply_net_forward (img, net, transformer):
 #for model in Unetmodels:
 #    #model=Unetmodels[3]
 #    model_root = model +'/'+str(os.listdir(model)[0])+'/'
-model_root='C:/Users/Lynda/Documents/caffe/examples/Unettest/Unet28_16_'
+model_root='C:/Users/user/Documents/caffe/examples/Unettest/Unet28_16_'
 #test all saved models?
 #allmodels=glob.glob(model_root + '*.caffemodel')
 #test last model saved
 #for model_weights in [natsorted(glob.glob(model_root + '*iter_10000.caffemodel'), alg=ns.IGNORECASE)[-1]]:
-model_weights='C:\\Users\\Lynda\\Documents\\caffe\\examples\\Unettest\\Unet28_576_16_iter_8000.caffemodel'    
-net = caffe.Net('C:\\Users\\Lynda\\Documents\\caffe\\examples\\Unettest\\UNet28_run576_Deploy.prototxt',      # defines the structure of the model
-                'C:\\Users\\Lynda\\Documents\\caffe\\examples\\Unettest\\Unet28_576_16_iter_8000.caffemodel'    ,  # contains the trained weights
+model_weights='C:\\Users\\user\\Documents\\caffe\\examples\\Unettest\\Unet28_576_16_iter_8000.caffemodel'    
+net = caffe.Net('C:\\Users\user\\Documents\\caffe\\examples\\Unettest\\UNet28_run576_Deploy.prototxt',      # defines the structure of the model
+                'C:\\Users\\user\\Documents\\caffe\\examples\\Unettest\\Unet28_576_16_iter_8000.caffemodel'    ,  # contains the trained weights
                 caffe.TEST)     # use test mode (e.g., don't perform dropout)\\
 
     # get size of input image for network
@@ -75,7 +75,7 @@ img_size=net.blobs['data'].data.shape[-1]
 
 #load image mean
 #dataset_root='Datasets\\SevenImage_600\\20190627-221820-ef8d' 
-meanfile='C:\\Users\\Lynda\\Documents\\caffe\\examples\\SDML576_train2_r\\train_mean.binaryproto'
+meanfile='C:\\Users\\user\\Documents\\caffe\\examples\\SDML576_train2_r\\train_mean.binaryproto'
 blob = caffe.proto.caffe_pb2.BlobProto()
 data = open( meanfile , 'rb' ).read()
 
