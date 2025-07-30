@@ -15,7 +15,7 @@ addpath([pwd,'/perceptual'],'-end'); % code for perceptual features, see license
 
 % define some constants (paths, filenames and the like)
 
-cnst.inputDir = 'F:\LyndaB\NewSupDeep\classifierims\';  % Path of a directory that contains 
+cnst.inputDir = '\classifierims\';  % Path of a directory that contains 
 % ONE FOLDER PER TISSUE CATEGORY with multiple small images per folder, 
 % e.g. 625 images with 150 * 150 px each. Path must end with /
 
