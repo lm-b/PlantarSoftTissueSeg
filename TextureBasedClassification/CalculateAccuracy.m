@@ -1,7 +1,7 @@
-% Calculate Accuracy fo Segmentations
-% Lynda Brady 2021
-segfolder='F:\Paper_DICE_Segs\Segmentations_16_WCE';
-imgfolder='F:\From Finite\newsupdeep\DeepLearningData\RunSegs'; % F is 5TB external drive!
+% Calculate Accuracy of Segmentations
+
+segfolder=''; % change to desired folder 
+imgfolder=''; % change to desired folder 
 addpath(segfolder);
 %allsegs=dir([segfolder '*mat']);
 accs={};
