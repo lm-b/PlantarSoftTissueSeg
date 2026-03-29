@@ -38,3 +38,6 @@ Data can be found at UW research works. There should be a zipped file containing
 * MATLAB code was run on windows and Liunux systems (Win 7, 10; Ubuntu 12)
 * Python code for caffe run on Win 7. 
 * All other O.S. have not been tested
+
+#### Licensing and copyright 
+The omission of a license from this repository is intentional. The authors retain copyright and do not authorize use or reproduction beyond that required to comply with licensing of the open-source contributions used within this work. We are supportive of academic and nonprofit research sharing. If you are interested in using this work in whole or part, please reach out. 
